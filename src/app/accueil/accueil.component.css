@@ -1,0 +1,147 @@
+.main {
+  display: flex; /* Utilisez Flexbox pour aligner les éléments horizontalement */
+  justify-content: space-between; /* Ajoutez de l'espace entre les éléments */
+}
+
+.container {
+  display: flex; /* Utilisez Flexbox pour aligner les éléments horizontalement */
+  justify-content: space-between; /* Espace entre les éléments */
+  align-items: flex-start; /* Aligner les éléments au début */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table-container {
+  flex: 1; /* La table prend tout l'espace disponible */
+  margin-right: 20px; /* Marge à droite pour l'espacement */
+}
+
+.google-map-container {
+  flex: 1; /* La carte Google prend tout l'espace disponible */
+}
+
+.card-body {
+  overflow-x: auto; /* Assurez-vous que la table peut défiler horizontalement si nécessaire */
+}
+
+.table-container {
+  margin-bottom: 20px; /* Ajouter de l'espace en bas de la table */
+}
+
+.pagetitle {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.panel-header h5 {
+  margin: 0;
+}
+
+.panel-content {
+  margin-top: 10px;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.nav-profile .dropdown-menu {
+  border-radius: 8px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item i {
+  margin-right: 10px;
+}.container {
+display: flex;
+flex-direction: row;
+}
+
+.col-lg-8 {
+flex: 0 0 66.6667%;
+max-width: 66.6667%;
+padding-right: 15px;
+}
+
+.col-lg-4 {
+flex: 0 0 33.3333%;
+max-width: 33.3333%;
+padding-left: 15px;
+}
+
+.panel-card {
+background-color: #007BFF;
+color: white;
+border-radius: 10px;
+padding: 20px;
+margin: 10px 0;
+min-height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.panel-content {
+text-align: center;
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.panel-header {
+font-size: 1.5em;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.panel-data div {
+margin: 10px 0;
+}
+
+.panel-footer {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.panel-footer a {
+color: white;
+margin: 0 10px;
+font-size: 1.5em;
+}
+
+.profile {
+background-color: rgb(150, 212, 253);
+}
+
+
+
+.panel-footer a {
+color: white;
+margin: 0 10px;
+font-size: 1.5em;
+}
+
+.profile {
+background-color: rgb(150, 212, 253);
+}
+
+.google-map-container {
+height: 700px;  /* Ajustez la hauteur ici si nécessaire */
+width: 100%;
+  margin-left: 170px;  /* Ajoutez cette ligne pour la marge à gauche */
+}

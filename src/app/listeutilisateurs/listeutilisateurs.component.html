@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path d="M21.365 10.682c.236.31.357.68.357 1.066 0 1.104-1.343 2-3 2s-3-1.343-3-3c0-.386.097-.756.268-1.09l2.865-2.865c.195-.195.512-.195.707 0 .195.195.195.512 0 .707l-2.193 2.193c-.307.135-.592.351-.82.58-.751.751-.751 1.969 0 2.719.375.375.884.585 1.414.585s1.039-.21 1.414-.586l1.25-1.25c.195-.195.512-.195.707 0 .195.195.195.512 0 .707l-1.25 1.25zm-4.51-4.51c1.657 0 3 1.343 3 3 0 .386-.097.756-.268 1.09l2.865-2.865c.195-.195.512-.195.707 0 .195.195.195.512 0 .707l-5.379 5.378c-.195.195-.512.195-.707 0-.195-.195-.195-.512 0-.707l2.193-2.193c.307-.135.592-.351.82-.58.751-.751.751-1.969 0-2.719-.751-.751-1.968-.751-2.719 0-.228.229-.444.513-.58.82l-2.193 2.193c-.195.195-.512.195-.707 0s-.195-.512 0-.707l2.193-2.193c-.332-.171-.702-.268-1.09-.268-1.657 0-3 1.343-3 3s1.343 3 3 3z"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path d="M12 2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 20c-5.514 0-10-4.486-10-10s4.486-10 10-10 10 4.486 10 10-4.486 10-10 10zm0-6c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0-4c1.104 0 2 .896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2z"/>
+</svg>
+<app-navbar></app-navbar>
+<app-sidebar></app-sidebar>
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Liste Utilisateur  </h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">Dashboard</li>
+                <li class="breadcrumb-item">liste Utilisateur</li>
+
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <br>
+
+                        <a class="btn btn-primary rounded-pill"  routerLink="/ajouterutilisateur">
+    + Ajouter un utilisateur
+</a>
+
+                        <br>
+                        <br>
+                        <!-- Table with stripped rows -->
+                        <table class="table datatable">
+                            <thead>
+                                <tr>
+                                    <th>Nom</th>
+                                    <th>Prenom</th>
+                                    <th>Email</th>
+                                    <th>MotDePasse</th>
+                                    <th> </th>
+                                    <th>Activation</th>
+
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr >
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td><td>
+
+
+ <i  class="btn btn-secondary btn-sm" class="button button2">
+                                            <img src="/assets/view.png"
+                                                style="vertical-align: middle; margin-right: 5px; width: 20px;height: 20px;">
+                                        </i>
+
+
+                                 <td>
+   <label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+</td>
+                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <i  class="button button2">
+                                            <img src="/assets/editer.png"
+                                                style="vertical-align: middle; margin-right: 5px; width: 20px;height: 20px;">
+                                        </i>
+                                    </td>
+                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <i  class="button button3">
+                                            <img src="/assets/supprimer.png"
+                                                style="vertical-align: middle; margin-right: 5px; width: 20px;height: 20px;">
+                                        </i>
+                                    </td>
+
+                                    <!--<td><button class="button button4"(click)="addUser()" class="button button2">                      Ajouterr
+            
+            </button></td>-->
+                                </tr>
+                            </tbody>
+
+                        </table>
+                        <!-- End Table with stripped rows -->
+                        <br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

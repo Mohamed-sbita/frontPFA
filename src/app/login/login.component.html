@@ -1,0 +1,38 @@
+
+<div style="height: 100vh " class="bg" >
+    
+  
+  <div fxLayoutAlign="left center " fxFlexFill class="main-div">
+  
+    <mat-card fxFlex="30" class="a" >
+      
+  <form   fxLayoutAlign="stretch" fxLayout="column" class="login-form" method="post">
+  
+  <br><h1>Connexion </h1>
+  
+      <label for="email"></label>
+      <input class="input"name="email" id="email" matInput placeholder="Email" required type="email" [(ngModel)]="user.email" (click)="reset()" />
+      <div *ngIf="erroremail" style="color: red;">
+        email is required 
+      </div>
+      <div *ngIf="emailinvalid"  style="color: red;">
+         invalid format
+      </div>
+      <br>
+      <label for="password"></label>
+      <input id="password"  name="password" type="password" matInput placeholder=" Mot De Passe" minlength="8" required  class="c" [(ngModel)]="user.password" (click)="reset()" />
+      <div *ngIf="errorpassword" style="color: red;">
+        password is required 
+      </div>
+  <br>
+  <button mat-raised-button type="submit"  (click)="login()" >Connexion</button><br>
+  
+  
+  
+  
+  </form>
+  
+    </mat-card>
+  </div>
+  </div>
+  
